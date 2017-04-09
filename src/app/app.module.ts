@@ -5,8 +5,6 @@ import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeModule } from './home/home.module';
-import { StarwarsModule } from './starwars/starwars.module';
 
 @NgModule({
   declarations: [
@@ -16,8 +14,6 @@ import { StarwarsModule } from './starwars/starwars.module';
     BrowserModule,
     FormsModule,
     HttpModule,
-    HomeModule,
-    StarwarsModule,
     AppRoutingModule
   ],
   providers: [],
